@@ -1,0 +1,9 @@
+{
+        "taskname": "squad",
+        "prompt_template": "<|VIRTUAL_PROMPT_0|> Context: {context}\n\nQuestion: {question}\n\nAnswer:{answer}",
+        "total_virtual_tokens": 10,
+        "virtual_token_splits": [10],
+        "truncate_field": "context",
+        "answer_only_loss": True,
+        "answer_field": "answer",
+    }
